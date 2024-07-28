@@ -8,7 +8,6 @@ let interval;
 
 function startwatch() {
     document.getElementById("startbtn").disabled = true;
-    // console.log("startwatch");
     interval = setInterval(function () {
         count += 1;
         if (count === 60) {
@@ -27,7 +26,6 @@ function startwatch() {
 }
 
 function resetwatch() {
-    // console.log("resetwatch");
     clearInterval(interval);
     count = 0;
     minute.innerHTML = '0';
