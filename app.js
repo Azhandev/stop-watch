@@ -36,7 +36,6 @@ function resetwatch() {
 
 function stopwatch() {
     document.getElementById("startbtn").disabled = false;
-    // console.log("stopwatch");
     clearInterval(interval);
 }
 
