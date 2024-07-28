@@ -2,7 +2,7 @@ let minute = document.querySelector('#minute');
 let second = document.querySelector('#second');
 let milisecond = document.querySelector('#milisecond');
 let startbtn = document.querySelector('#startbtn')
-
+ 
 let count = 0;
 let interval;
 
